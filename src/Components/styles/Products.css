@@ -1,0 +1,41 @@
+#title{
+    position: relative;
+    font-weight: 200;
+}
+.tasks{
+    float: left;
+    margin-left: 100px !important;
+    margin-bottom: 50px !important;
+    text-align: center;
+}
+.product_name{
+    position: absolute;
+    font-weight: 500;
+    margin-top: 260px;
+    margin-left: 20px;
+}
+.product_img{
+    position: absolute;
+    width: 300px;
+    height:250px;
+    margin-left: -150px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.product_btn{
+    position: absolute;
+    margin-top:200px;
+}
+@media only screen and (max-width: 700px) {
+    #product{
+        margin-left:-60px;
+    }
+    #title{
+        margin-left: 20px;
+    }
+    .tasks{
+        float: left;
+        margin-left: 20px !important;
+        margin-bottom: 50px !important;
+    }
+}

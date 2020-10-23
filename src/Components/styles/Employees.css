@@ -1,0 +1,28 @@
+::selection {
+    color: #fff;
+    background: #3f51b5;
+  }
+
+#title{
+    font-weight: 200;
+    margin-left: 100px;
+    color: #2c3743;
+}
+.tasks{
+    float: left;
+    margin-left: 100px !important;
+    margin-bottom: 100px !important;
+}
+h4{
+    font-weight: 300;
+}
+.icons{
+    color:#3f51b5;
+}
+.employee_img{
+    position: absolute;
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: -100px;
+}

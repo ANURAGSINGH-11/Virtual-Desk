@@ -1,0 +1,60 @@
+::selection {
+    color: #fff;
+    background: #3f51b5;
+  }
+
+
+#title{
+    font-weight: 200;
+    margin-left: 50px;
+}
+#employee_info{
+    font-weight: 200;
+    margin-left: 100px;
+}
+
+.tasks{
+    float: left;
+    margin-left: 100px !important;
+    margin-bottom: 20px !important;
+}
+
+.describe{
+    position: absolute;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+ .tasks_value{
+    position: absolute;
+    color:#34495E;
+    margin-top: 50px;
+    margin-left: -210px;
+    font-weight: 600;
+    display: inline;
+} 
+#row{
+    background-color: #3f51b5;
+}
+.cell{
+    color:#fff !important;
+}
+#form-search{
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+@media only screen and (max-width: 700px) {
+    #contain{
+        margin-left: -60px;
+    }
+    
+    #employee_info{
+        font-weight: 200;
+        margin-left: 20px;
+    }
+    #form-search{
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+  }
+
